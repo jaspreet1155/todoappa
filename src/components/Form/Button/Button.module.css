@@ -1,0 +1,12 @@
+button {
+    background: #6668f9;
+    border: none;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    background: none;
+}

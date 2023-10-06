@@ -1,0 +1,23 @@
+.taskLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.labelSpan {
+    text-align: center;
+}
+
+.created {
+    color: #ddc64d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+
+.completed {
+    color: #6668f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+}
+

@@ -1,0 +1,61 @@
+.error-modal {
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #191919FF;
+    border: 1px solid #3c4873;
+    border-radius: 12px;
+    position: fixed;
+    top: 25vh;
+    left: 35%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.error-modal header {
+    height: 30%;
+    width: 100%;
+    background-color: #0d0d0d;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border: 1px solid #3c4873;
+}
+
+.error-modal header h3 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.error-modal main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+.error-modal main p {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+.error-modal footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30%;
+}
+
+.error-modal footer Button {
+    height: 40px;
+    /*width: 50px;*/
+    margin-right: 15px;
+}
+
+
+

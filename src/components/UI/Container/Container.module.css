@@ -1,0 +1,41 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.taskLabel-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 5px 5px;
+}
+
+.task {
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    padding: 0 20px;
+    /*gap: 1rem;*/
+    font-family: 'Corbel', Sans Serif;
+
+}
+
+.task p {
+    font-size: 16px;
+    color: black;
+}
+
+.task span {
+    cursor: pointer;
+    height: 16px;
+}
+
+#done {
+    position: relative;
+    right: 100px;
+
+}

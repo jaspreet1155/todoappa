@@ -1,0 +1,51 @@
+.task {
+    background: #262626;
+    padding: 10px 10px 5px 10px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 1fr 1fr;
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+
+
+.task span {
+    padding: 5px 0 0 0;
+}
+
+#done {
+    cursor: pointer;
+    justify-self: center;
+}
+
+#delete {
+    cursor: pointer;
+    display: flex;
+    justify-self: center;
+
+}
+
+.message {
+    /*border: red solid;*/
+    display: flex;
+    align-items: center;
+    font-family: 'Corbel', Sans Serif;
+    padding: 0 15px;
+    justify-self: start;
+
+}
+
+.listdone {
+    /*border: red solid;*/
+    display: flex;
+    align-items: center;
+    font-family: 'Corbel', Sans Serif;
+    padding: 0 15px;
+    justify-self: start;
+    text-decoration: line-through;
+
+}
+

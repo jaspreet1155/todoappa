@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo Black', sans-serif;
+    color: #d3d3d3;
+}
+
+body {
+    background: #191919;
+}

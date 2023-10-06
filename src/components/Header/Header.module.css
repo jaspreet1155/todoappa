@@ -1,0 +1,16 @@
+.header {
+    background: #0d0d0d;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: #ddc64d;
+    font-size: 2.5rem;
+}
+
+.header span {
+    color: #6668f9;
+}

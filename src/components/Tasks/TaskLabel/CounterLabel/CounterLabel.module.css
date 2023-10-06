@@ -1,0 +1,8 @@
+.counterLabel {
+    /*display: inline-block;*/
+    border-radius: 10px;
+    height: 20px;
+    width: 50px;
+    background: #262626;
+    /*background: white;*/
+}
